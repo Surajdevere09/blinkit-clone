@@ -203,7 +203,7 @@ let cold_drink=()=>{
     image: "https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=85,metadata=none,w=250,h=250/app/images/products/sliding_image/376a.jpg",
     name:"Tropicana 100 % orange juice",
     wt :"weight",
-    price : "price",
+    price : "110",
 },
 {
     cat:"juice",
@@ -245,7 +245,7 @@ let cold_drink=()=>{
     image: "https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=85,metadata=none,w=250,h=250/app/images/products/sliding_image/376a.jpg",
     name:"Tropicana 100 % orange juice",
     wt : "weight",
-    price : "price",
+    price : "258",
 },
 {
     cat:"juice",
@@ -295,7 +295,7 @@ let cold_drink=()=>{
     image: "https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=85,metadata=none,w=250,h=250/app/images/products/sliding_image/122997a.jpg",
     name:"Kinley club soda",
     wt : "weight",
-    price : "price",
+    price : "88",
 },
 {
     cat:"soda",
@@ -323,7 +323,7 @@ let cold_drink=()=>{
     image: "https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=85,metadata=none,w=250,h=250/app/images/products/sliding_image/122997a.jpg",
     name:"Kinley club soda",
     wt : "weight",
-    price : "price",
+    price : "58",
 },
 // energy drink......50-60
 
