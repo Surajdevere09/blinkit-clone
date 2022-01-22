@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="/A_project/styles/cart.css">
+    <link rel="stylesheet" href="/styles/cart.css">
     <style>
         #container_byOm{
             width:80%;
@@ -149,27 +149,7 @@
             <img src="https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=50,metadata=none,h=275/layout-engine/2021-12/web-banner.png?61e6f4d89d772" height="100%" width="100%" alt="">
         </div>
 
-       <!-- <div id="AnbigDiv">
-
-           <div id="AnsmallDiv1">
-               <img src="https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=50,metadata=none,w=401,h=250/layout-engine/2022-01/covid-not-over.jpg?61e708a67db24"  height="100%" width="100% " alt="">
-           </div>
-           <div id="AnsmallDiv2">
-               <img src="https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=50,metadata=none,w=401,h=250/layout-engine/2021-12/paan-shop-online.jpg?61e708ab60de4" alt="" height="100%" width="100%">     
-           </div>
-           <div id="AnsmallDiv3">
-            <img src="https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=50,metadata=none,w=401,h=250/layout-engine/2021-12/dry-fruits.png?61e708b6d6440" alt="" height="100%" width="100%">   
-           </div>
-           <div>
-               <img src="https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=50,metadata=none,w=401,h=250/layout-engine/2021-12/repllents.png?61e708b8e8c17" height="100%" width="100%" alt="">
-           </div>
-
-       </div> -->
-
-       <!-- <div id="AnfruitDiv">
-       </div>  -->
-
-    <div id="sliderDiv_byOm">
+     <div id="sliderDiv_byOm">
 
     </div> 
      <div id="inner_byOm">
@@ -180,7 +160,7 @@
 
             <div id="rigth_byOm">
                 <div id="see_more">
-                    <a href="/A_project/temp/index.html" style="text-Decoration:none"><h4>See more</h4></a>
+                    <a href="index.html" style="text-Decoration:none"><h4>See more</h4></a>
                 </div>
                 <div id="sliderBtn">
                      <button onclick="plusSlide(-1)" class="arrow" id="l_arrow">></button>
@@ -210,7 +190,7 @@
 
             <div id="rigth_byOm">
                 <div id="see_more">
-                    <a href="/A_project/index.html" style="text-Decoration:none"><h4>see more</h4></a>
+                    <a href="index.html" style="text-Decoration:none"><h4>see more</h4></a>
                 </div>
                 <div id="sliderBtn">
                      <button class="arrow" id="l_arrow">></button>
@@ -230,7 +210,7 @@
 
         <div id="rigth_byOm">
             <div id="see_more">
-                <a href="/A_project/temp/index.html" style="text-Decoration:none"><h4>See more</h4></a>
+                <a href="index.html" style="text-Decoration:none"><h4>See more</h4></a>
             </div>
             <div id="sliderBtn">
                  <button class="arrow" id="l_arrow">></button>
@@ -250,7 +230,7 @@
 
     <div id="rigth_byOm">
         <div id="see_more">
-            <a href="/A_project/temp/index.html" style="text-Decoration:none"><h4>see more</h4></a>
+            <a href="index.html" style="text-Decoration:none"><h4>see more</h4></a>
         </div>
         <div id="sliderBtn">
              <button class="arrow" id="l_arrow">></button>
@@ -264,22 +244,7 @@
 </html>
 <script type="module">
 
-//     var slideIndex = 1;
-// showSlides(slideIndex);
-
-// function plusSlides(n) {
-//   showSlides(slideIndex += n);
-// }
-
-// function currentSlide(n) {
-//   showSlides(slideIndex = n);
-// }
-
-
-
-
-
-    import veg_data from "/A_project/scripts/vegData.js";
+    import veg_data from "/scripts/vegData.js";
     let cart =[];
     // let div = document.createElement('div');
 
@@ -384,7 +349,7 @@
 
 // slider functionality
 
- import slider_imageArr_byOm from "/A_project/scripts/images.js";
+ import slider_imageArr_byOm from "/scripts/images.js";
     
     let sliderDiv = document.getElementById('sliderDiv_byOm');
      
@@ -417,7 +382,7 @@
 
 //grocery data
 
-import groceryData from "/A_project/scripts/grocery.js";
+import groceryData from "/scripts/grocery.js";
 let gros_arr = await groceryData(); //data call
 console.log(gros_arr) ;   
 console.log(gros_arr[7].image);
@@ -516,7 +481,7 @@ console.log(gros_arr[7].image);
 
 //cold drink data
 
-  import {cold_drink} from "/A_project/scripts/data.js";
+  import {cold_drink} from "/scripts/data.js";
 
   let drink = await cold_drink(); //data call
 console.log('cold_drink:', cold_drink) ;
@@ -616,7 +581,7 @@ console.log('cold_drink:', cold_drink) ;
 
 
   //personal care
-  import {personalCare_data} from "/A_project/scripts/data.js";
+  import {personalCare_data} from "/scripts/data.js";
 
   let pcArr = await personalCare_data(); //data call
 console.log('pcArr:', pcArr)
