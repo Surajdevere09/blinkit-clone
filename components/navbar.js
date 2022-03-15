@@ -2,7 +2,7 @@ function navbar() {
   return ` <div id="mainNav">
     <div id="logo">
       <img 
-        src="https://blinkit.com/1c8186839103f6756f36889c7e73a799.svg"
+        src="https://blinkit.com/images/header/blinkit-logo-header-05a0b5f.png"
         alt=""
       />
     </div>
